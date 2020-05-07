@@ -2,20 +2,17 @@
 layout: default
 title: Home
 ---
+Recent posts
+========================================================================
+{% for post in site.posts limit:5 %}
+  [{{ post.title }}]({{ post.url }})	
+{% endfor %}
 
-<div>
-  Recent posts
-  ========================================================================
-  {% for post in site.posts limit:5 %}
-    [{{ post.title }}]({{ post.url }})	
-  {% endfor %}
-
-  Posts in chronological order
-  ========================================================================
-  {% for post in site.posts %}
-    [{{ post.title }}]({{ post.url }})	
-  {% endfor %}
-</div>
+Posts in chronological order
+========================================================================
+{% for post in site.posts %}
+  [{{ post.title }}]({{ post.url }})	
+{% endfor %}
 
 [Click here](https://casual-effects.com/markdeep/features.md.html?noformat)
 to see this document without automatic formatting.
