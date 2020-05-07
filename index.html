@@ -3,6 +3,20 @@ layout: default
 title: Home
 ---
 
+<div>
+  Recent posts
+  ========================================================================
+  {% for post in site.posts limit:5 %}
+    [{{ post.title }}]({{ post.url }})	
+  {% endfor %}
+
+  Posts in chronological order
+  ========================================================================
+  {% for post in site.posts %}
+    [{{ post.title }}]({{ post.url }})	
+  {% endfor %}
+</div>
+
 **Markdeep Feature Demo**
                            Morgan McGuire
 
