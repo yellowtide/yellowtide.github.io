@@ -3,12 +3,14 @@ layout: default
 title: Home
 ---
 
-<h3>Recent posts (5)</h3>
+Recent posts
+========================================================================
 {% for post in site.posts limit:5 %}
   + <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
 
-<h3>All in chronological order</h3>
+Posts in chronological order
+========================================================================
 {% for post in site.posts %}
   + <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
