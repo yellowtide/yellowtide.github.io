@@ -1,0 +1,57 @@
+---
+layout: none
+---
+
+<meta charset="utf-8" lang="en"><style class="fallback">body{visibility:hidden;}</style>
+
+                      **Markdeep Feature Demo**
+                           Morgan McGuire
+
+This demonstration documents the features of
+[Markdeep](http://casual-effects.com/markdeep) and acts as a test for
+it.  Markdeep is a text formatting syntax that extends Markdown, and a
+Javascript program for making it work in browsers. The two most
+powerful features are its ability to run in any **web browser** on the
+client side and the inclusion of **diagrams**.
+
+[Click here](https://casual-effects.com/markdeep/features.md.html?noformat)
+to see this document without automatic formatting.
+
+Markdeep is free and easy to use. It doesn't need a plugin, or
+Internet connection. There's nothing to install. Just start
+writing in Vi, Nodepad, Zed, Emacs, Visual Studio, Atom, or another
+editor! You don't have to export, compile, or otherwise process
+your document.
+
+If you want to support development of Markdeep, you can
+[sponsor](https://github.com/sponsors/morgan3d) these projects on GitHub
+for $2 or just buy my [Graphics Codex](http://graphicscodex.com) book for $10 on Amazon. 
+Revenue from the book funds my open source projects.
+
+
+Basic Formatting
+=======================================================================================
+Text formatting: 
+
+    Source                               |     Result
+-----------------------------------------|------------------------------
+`**bold**`                               | **bold**
+`__bold__`                               | __bold__
+`*italic*`                               | *italic*
+`_italic_`                               | _italic_
+`~~strikethrough~~`                      | ~~strikethrough~~
+<code>`inline code`</code>               | `inline code`
+`[news](https://cbc.ca)`                 | [news](https://cbc.ca)
+`https://casual-effects.com`             | https://casual-effects.com
+`morgan@casual-effects.com`              | morgan@casual-effects.com
+`5 kg/m^3`                               | 5 kg/m^3
+`5 degrees`                              | 5 degrees
+`x<sub>below</sub>`                      | x<sub>below</sub>
+`<small>size</small>`                    | <small>size</small>
+`<big>size</big>`                        | <big>size</big>
+
+You can add CSS to change the styles. See the Custom Formatting section
+for some examples.
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
